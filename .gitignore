@@ -1,0 +1,11 @@
+/target/
+target/
+../oops-principles/target/
+.classpath
+.settings/org.eclipse.jdt.core.prefs
+../oops-principles/.classpath
+../oops-principles/.settings/org.eclipse.jdt.core.prefs
+.project
+.settings/
+core-java/.project
+core-java/.settings/
