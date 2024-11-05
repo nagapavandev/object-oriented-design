@@ -7,6 +7,7 @@
   <modules>
     <module>oops-concepts</module>
     <module>oops-principles</module>
-    <module>core-java</module>
+    <module>core-java-concepts</module>
+    <module>core-java-samples</module>
   </modules>
 </project>

@@ -38,12 +38,12 @@ package com.ramesh.ood.concepts.abstraction;
  */
 class Person {
 
-	private double id;
+	private int id;
 	private String name;
 
 	public Person() {
 		// Only Person class can access and assign
-		id = Math.random();
+		id = (int)(Math.random()*100);
 		sayHello();
 	}
 
