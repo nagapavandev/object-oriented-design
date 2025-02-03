@@ -35,6 +35,10 @@ public class FilteringApples1{
          *  lambda expression in Java. 
          *  Specifically, it’s a predicate because it returns a boolean value
          * */
+        /*
+         * lambda expressions are used to implement functional interfaces
+         *  (interfaces with a single abstract method)
+         */
         // []
         List<Apple> weirdApples = filterApples(inventory, (Apple a) -> a.getWeight() < 80 || 
                                                                        "brown".equals(a.getColor()));
@@ -80,37 +84,6 @@ public class FilteringApples1{
         return result;
     }       
 
-    public static class Apple {
-        private int weight = 0;
-        private String color = "";
 
-        public Apple(int weight, String color){
-            this.weight = weight;
-            this.color = color;
-        }
-
-        public Integer getWeight() {
-            return weight;
-        }
-
-        public void setWeight(Integer weight) {
-            this.weight = weight;
-        }
-
-        public String getColor() {
-            return color;
-        }
-
-        public void setColor(String color) {
-            this.color = color;
-        }
-
-        public String toString() {
-            return "Apple{" +
-                   "color='" + color + '\'' +
-                   ", weight=" + weight +
-                   '}';
-        }
-    }
 
 }
