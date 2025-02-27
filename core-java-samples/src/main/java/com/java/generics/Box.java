@@ -4,7 +4,7 @@ import java.util.stream.Stream;
 
 import com.java.java8inaction.Apple;
 
-/*
+/**
  * A type parameter is a placeholder used in generics to represent a type that will be 
  * specified later when the class, interface, or method is instantiated or invoked. 
  * Type parameters allow you to write more flexible and reusable code while maintaining 
@@ -63,9 +63,9 @@ public class Box<T> {
 		 .map(element -> "Lambda element: " + element) 
 	      .forEach(System.out::println);
 		
-	//	Comparable number = 10;
-	//      number.compareTo("10");
-	  Comparable<Integer> number = 10;
+		Comparable number = 10;
+	      number.compareTo(11);
+//	  Comparable<Integer> number = 10;
 	  System.out.println("bigger or smaller "+number.compareTo(11));
       
       List <Apple> appleList = new ArrayList<>();
