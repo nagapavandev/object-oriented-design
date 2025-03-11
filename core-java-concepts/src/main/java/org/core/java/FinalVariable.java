@@ -4,7 +4,7 @@ package org.core.java;
  * Final variables Final methods Final class Final parameters
  * 
  * final variables are used when you want to ensure that a variable's value
- * cannot be changed after initialization. T hey can be instance variables,
+ * cannot be changed after initialization. They can be instance variables,
  * local variables, or method parameters.
  * 
  * static final variables are constants that belong to the class itself (rather

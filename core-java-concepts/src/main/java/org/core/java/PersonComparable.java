@@ -45,6 +45,9 @@ public class PersonComparable implements Comparable<PersonComparable> {
             new PersonComparable("naga", 20),
             new PersonComparable("tanguturi", 15)
         );
+        
+//        Boolean b = people.add(new PersonComparable("pavan", 35));
+//        System.out.println(b);
 
         Collections.sort(people);  // Sorts by age
         System.out.println("comparable example "+people);
