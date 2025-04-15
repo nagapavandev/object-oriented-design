@@ -6,7 +6,7 @@
 		<artifactId>object-oriented-design</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-  <artifactId>core-java</artifactId>
+  <artifactId>core-java-concepts</artifactId>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
